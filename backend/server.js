@@ -122,6 +122,7 @@ const theaterRoutes = require('./routes/theaters');
 const screenRoutes = require('./routes/screens');
 const bookingRoutes = require('./routes/bookings');
 const reviewRoutes = require('./routes/reviews');
+const favoriteRoutes = require('./routes/favorites');
 const notificationRoutes = require('./routes/notifications');
 const couponRoutes = require('./routes/coupons');
 
@@ -131,6 +132,7 @@ app.use('/api/theaters', theaterRoutes);
 app.use('/api/screens', screenRoutes);
 app.use('/api/bookings', bookingRoutes);
 app.use('/api/reviews', reviewRoutes);
+app.use('/api/favorites', favoriteRoutes);
 app.use('/api/notifications', notificationRoutes.router);
 app.use('/api/coupons', couponRoutes);
 

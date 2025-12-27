@@ -42,7 +42,7 @@
 
 ### Backend Enhancements
 - [x] Add movie search API
-- [ ] Implement user favorites API
+- [x] Implement user favorites API
 - [x] Add booking cancellation feature
 - [ ] Implement email notifications
 - [ ] Add user profile management
