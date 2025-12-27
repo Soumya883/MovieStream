@@ -16,11 +16,11 @@
 ## 🚀 New Features & Enhancements
 
 ### Payment Enhancements
-- [ ] Add Net Banking payment option
-- [ ] Add Wallet payment options (Paytm, Mobikwik, Ola Money)
-- [ ] Implement payment validation and error handling
-- [ ] Add payment success/failure animations
-- [ ] Add payment receipt generation
+- [x] Add Net Banking payment option
+- [x] Add Wallet payment options (Paytm, Mobikwik, Ola Money)
+- [x] Implement payment validation and error handling
+- [x] Add payment success/failure animations
+- [x] Add payment receipt generation
 
 ### UI/UX Improvements
 - [x] Add loading skeletons for better UX
@@ -34,11 +34,11 @@
 - [x] Add movie search functionality
 - [x] Implement movie filtering (by genre, rating, language)
 - [x] Add user favorites/watchlist
-- [ ] Implement movie ratings and reviews
+- [x] Implement movie ratings and reviews (frontend display and submission)
 - [x] Add theater location on map
 - [x] Implement booking history
 - [x] Add promotional offers and coupons
-- [ ] Implement user notifications
+- [x] Implement user notifications
 
 ### Backend Enhancements
 - [x] Add movie search API
@@ -46,7 +46,7 @@
 - [x] Add booking cancellation feature
 - [ ] Implement email notifications
 - [ ] Add user profile management
-- [ ] Implement coupon/discount system
+- [x] Implement coupon/discount system
 - [ ] Add analytics and reporting
 - [ ] Enhance error handling and logging
 

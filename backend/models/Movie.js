@@ -10,7 +10,9 @@ const movieSchema = new mongoose.Schema({
   trailer: { type: String }, // URL to trailer
   cast: [{ name: String, role: String }],
   director: { type: String },
-  rating: { type: Number, min: 0, max: 10 },
+  rating: { type: Number, min: 0, max: 10 }, // Average rating
+  totalRatings: { type: Number, default: 0 }, // Total number of ratings
+  totalReviews: { type: Number, default: 0 }, // Total number of reviews
 });
 
 module.exports = mongoose.model('Movie', movieSchema);

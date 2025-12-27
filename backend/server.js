@@ -121,12 +121,18 @@ const movieRoutes = require('./routes/movies');
 const theaterRoutes = require('./routes/theaters');
 const screenRoutes = require('./routes/screens');
 const bookingRoutes = require('./routes/bookings');
+const reviewRoutes = require('./routes/reviews');
+const notificationRoutes = require('./routes/notifications');
+const couponRoutes = require('./routes/coupons');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/movies', movieRoutes);
 app.use('/api/theaters', theaterRoutes);
 app.use('/api/screens', screenRoutes);
 app.use('/api/bookings', bookingRoutes);
+app.use('/api/reviews', reviewRoutes);
+app.use('/api/notifications', notificationRoutes.router);
+app.use('/api/coupons', couponRoutes);
 
 // 404 handler
 app.all('*', (req, res, next) => {
